@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.n-odd {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgba(253, 132, 132, 0.789);
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+#n2 {
+    font-size: 36px;
+    color: blue;
+}
+
+#n4 {
+    font-weight: bold;
+    background-color: rgba(116, 243, 118, 0.837);
+}
