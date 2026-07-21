@@ -44,6 +44,7 @@ body {
   border-radius: 4px;
 
   flex: 0 0 400px;
+  padding: 16px;
 }
 
 /* ------- */
@@ -55,6 +56,8 @@ body {
 .card-stock {
   display: flex;
   flex-flow: wrap row;
+  padding: 30px;
+  gap: 30px;
 }
 
 ul {
