@@ -34,6 +34,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  flex-shrink: 0;
 }
 
 .card {
@@ -53,4 +55,19 @@ body {
 .card-stock {
   display: flex;
   flex-flow: wrap row;
+}
+
+ul {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
